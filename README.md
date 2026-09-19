@@ -11,6 +11,8 @@ Its low cost and really easy to build
 * tpu pads to stop the ceramic disk from shattering on impact with a drumstick
 
 ## CAD Model:
+
+[Onshape link](https://cad.onshape.com/documents/cf409ba0d7730449b32f7b00/w/cda78f4cd7516b803366ff83/e/52d1e4e74febc94aa938617d?renderMode=0&uiState=6aae407f912b1e0140f0e93a) <br><br>
 <img width="445" height="348" alt="Screenshot From 2026-09-18 23-24-44" src="https://github.com/user-attachments/assets/f3750ca3-e629-4ab5-a048-d99e93610765" />
 
 There is a base plate, on which there are 8 slots to put your pads
