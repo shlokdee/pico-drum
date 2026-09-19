@@ -28,7 +28,19 @@ Raspberry pi pico has only 3 analog ports, hence we have used a multiplexer to c
 The perf board layout
 
 ## Firmware:
-TODO
+
+Run the command 
+```
+pip3 install adafruit-circuitpython-midi
+```
+
+
+Then Upload the firmware.py to the pico via this guide: 
+
+[Instructions on how to upload to pico](https://tasnimzotder.medium.com/how-to-write-code-on-pi-pico-using-circuitpython-vs-code-9fd7f0bb5d0a)
+
+
+You can change what midi commands you want to send with each tap by editing the pad_notes variable in the firmware.py
 
 ## How to build
 Purchase the components listed in [BOM](BOM.csv)
