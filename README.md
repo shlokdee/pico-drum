@@ -38,13 +38,14 @@ Purchase the components listed in [BOM](BOM.csv)
 4. Print the clips in TPU 10%, as we need to bend them to fit in place. Print 2 qty
 5. Solder in the resistors and the diodes onto the perf board according to the schematic and perf board layout given. Also drill 4 2 mm holes according to the diagram given below...
 <img width="318" height="256" alt="image" src="https://github.com/user-attachments/assets/6c6c75e7-ddda-4c41-bd05-dafa376983ad" />
-
-
+<br>
 <img width="594" height="354" alt="image" src="https://github.com/user-attachments/assets/b3fc260d-0801-4e96-97b0-ac6487f780a2" />
 
 6. Place the Pico, mux and the perf board according to the image shown above
-7. Place the tpupad-part 1 on the slots provided in the topplate. Then, place your piezo sensors in the circular slot, and route your wires through the holes provided on top. Further, place the tpupad-part 2 on top of the piezo
+7. Place the tpupad-part 1 on the slots provided in the topplate. Then, place your piezo sensors in the circular slot, and route your wires through the holes provided on top. Further, place the tpupad-part 2 on top of the piezo.
+
 <img width="621" height="348" alt="Screenshot From 2026-09-18 20-56-39" src="https://github.com/user-attachments/assets/94d0e1c4-1746-4650-9341-ef6c20b5eed8" />
+
 8. Make all the connections using wires and solder as per the schematic
 9. Keep the top plate on top of the bottom plate and secure it using the printed clips.
 10. Flash the firmware according to the instructions provided and voila!
