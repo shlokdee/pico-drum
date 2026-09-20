@@ -1,6 +1,6 @@
 # pico-drum
 
-pico-drum rpi pico based midi octapad drum... It uses piezos to sense a tap and outputs midi to your computer. 
+rpi pico based midi octapad drum... It uses piezos to sense a tap and outputs midi to your computer. 
 Its low cost and really easy to build
 
 ## Features:
