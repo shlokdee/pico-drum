@@ -28,23 +28,16 @@ s2.direction = Direction.OUTPUT
 
 adc = analogio.AnalogIn(board.GP26)
 
-def map_values(x):
-  return min(127, max(1, x // 512))
-
-
-def selection(x):
-  s0.value(x&1)
-  s1.value((x>>1)&1)
-  s2.value((x>>2)&1)
-
 
 while True:
   for i in range(8):
-    selection(i)
+    s0.value(i&1)
+    s1.value((i>>1)&1)
+    s2.value((i>>2)&1)
     time.sleep_us(100)
     x=adc.value()
     if x>threshhold and not pad_hit[i]:
-        vel=map_values(x)
+        vel=min(127, max(1, x // 512))
         midi.send(NoteOn(pad_notes[i], vel))
         pad_hit=True
     elif x<threshhold and pad_hit[i]
